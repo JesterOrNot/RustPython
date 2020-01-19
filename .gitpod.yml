@@ -1,3 +1,2 @@
 tasks:
-  - init: rustup default nightly && cargo build
-    command: cargo watch -x run
+  - init: rustup default nightly && cargo build && cargo watch -x run
