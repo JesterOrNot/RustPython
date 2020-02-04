@@ -1,2 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
-  - init: rustup default nightly && cargo build
+  - init: cargo build
+    command: cargo run
